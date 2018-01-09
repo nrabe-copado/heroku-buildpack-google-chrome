@@ -39,6 +39,8 @@ else
 fi
 set
 
+channel=unstable
+
 # Setup bin and shim locations for desired channel, and detect invalid channels
 case "$channel" in
   "stable")
